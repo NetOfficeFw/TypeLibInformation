@@ -1,6 +1,6 @@
 # TypeLib Importer
 
-NuGet package for distributing TypeLib Importer library **TlbInf32.dll**. 
+NuGet package for distributing TypeLib Information library **TlbInf32.dll**. 
 
 
 ## License
