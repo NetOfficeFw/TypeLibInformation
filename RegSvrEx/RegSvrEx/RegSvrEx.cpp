@@ -204,6 +204,17 @@ HRESULT RegisterDll(LPCWSTR szDll, bool bUnregister, bool bCurrentUser)
 		{
 			if (bCurrentUser)
 			{
+				// MSDN:  Before your application calls RegisterTypeLib, it should call
+				// OaEnablePerUserTLibRegistration. This enables RegisterTypeLib to
+				// accept the registry override mapping.
+				// Required for Windows Vista Service Pack 1 (SP1) and later operating systems
+				typedef void (WINAPI* OaEnablePerUserTypeLibReg)(void);
+				FARPROC enablePerUserTypeLibRegProcAddress = GetProcAddress(GetModuleHandle(L"oleaut32.dll"), "OaEnablePerUserTlibRegistration");
+				OaEnablePerUserTypeLibReg enablePerUserTypeLibFunc = reinterpret_cast<OaEnablePerUserTypeLibReg>(enablePerUserTypeLibRegProcAddress);
+				if (enablePerUserTypeLibFunc) {
+					(*enablePerUserTypeLibFunc)();
+				}
+
 				//Override HKEY_CLASSES_ROOT
 				hr = OverrideClassesRoot(HKEY_CURRENT_USER, L"Software\\Classes");
 			}
