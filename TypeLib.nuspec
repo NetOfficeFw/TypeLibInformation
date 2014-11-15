@@ -2,24 +2,20 @@
 <package>
   <metadata>
     <id>TypeLibInformation</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>Contributors</authors>
     <owners>Jozef Izso</owners>
     <licenseUrl>https://github.com/NetOfficeFw/TypeLibInformation/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/NetOfficeFw/TypeLibInformation</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>
-      TypeLib Information library v1.1.81.69. TypeLib library allows you to query COM servers
-      using reflection like syntax to dynamically get information about exported classes,
-      methods, properties and other data.
-    </description>
+    <description>TypeLib Information library v1.1.81.69. TypeLib library allows you to query COM servers using reflection like syntax to dynamically get information about exported classes, methods, properties and other data.</description>
     <releaseNotes>
-      * TypeLib Information library v1.1.81.69
-      * Registers the native TlbInf32.dll library to HKEY_LOCAL_USER
-      * Supports .NET 2.0, 3.5, 4.0 and 4.5
+* TypeLib Information library v1.1.81.69
+* Registers the native TlbInf32.dll library to HKEY_CURRENT_USER
+* Supports .NET 2.0, 3.5, 4.0 and 4.5
     </releaseNotes>
     <copyright>Copyright (c) 2014 Jozef Izso</copyright>
-    <tags>TypeLib import registry COM</tags>
+    <tags>TypeLib Type Library import registry COM metadata reflection</tags>
   </metadata>
   <files>
     <file src="lib\net35\TlbInf32.Interop.dll" target="lib\net20\TlbInf32.Interop.dll" />
