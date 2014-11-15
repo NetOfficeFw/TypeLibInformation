@@ -1,5 +1,7 @@
 # TypeLib Information library
 
+![NuGet package info](http://img.shields.io/nuget/v/TypeLibInformation.svg) ![NuGet package info](http://img.shields.io/nuget/dt/TypeLibInformation.svg)
+
 NuGet package for distributing TypeLib Information library **TlbInf32.dll**.
 
 
