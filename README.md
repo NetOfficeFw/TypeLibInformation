@@ -1,6 +1,6 @@
 # TypeLib Information library
 
-![NuGet package info](http://img.shields.io/nuget/v/TypeLibInformation.svg) ![NuGet package info](http://img.shields.io/nuget/dt/TypeLibInformation.svg)
+[![NuGet package info](http://img.shields.io/nuget/v/TypeLibInformation.svg)](https://www.nuget.org/packages/TypeLibInformation/) [![NuGet package info](http://img.shields.io/nuget/dt/TypeLibInformation.svg)](https://www.nuget.org/packages/TypeLibInformation/)
 
 NuGet package for distributing TypeLib Information library **TlbInf32.dll**.
 
@@ -29,7 +29,7 @@ For more information, see [OaEnablePerUserTLibRegistration function][1].
 
 ## License
 
-**TypeLib Importer** package source code is license under [MIT License)](LICENSE.txt)
+**TypeLib Importer** package source code is license under [MIT License](LICENSE.txt)
 
 The **RegSvrEx** utility is licensed under [The Code Project Open License (CPOL)](RegSvrEx/CPOL.htm).
 
