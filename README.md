@@ -1,8 +1,8 @@
 # TypeLib Information library
 
-[![NuGet package info](http://img.shields.io/nuget/v/TypeLibInformation.svg)](https://www.nuget.org/packages/TypeLibInformation/) [![NuGet package info](http://img.shields.io/nuget/dt/TypeLibInformation.svg)](https://www.nuget.org/packages/TypeLibInformation/)
+[![NuGet package info][nuget-version-svg]][nuget-version-link]
 
-NuGet package for distributing TypeLib Information library **TlbInf32.dll**.
+> NuGet package for distributing TypeLib Information library **TlbInf32.dll**.
 
 
 ## Usage
@@ -37,3 +37,5 @@ The **TlbInf32.dll** library is a property of Microsoft Corp.
 
 
 [1]: http://msdn.microsoft.com/en-us/library/windows/desktop/cc713570(v=vs.85).aspx
+[nuget-version-svg]: https://img.shields.io/nuget/v/TypeLibInformation.svg
+[nuget-version-link]: https://www.nuget.org/packages/TypeLibInformation/
